@@ -2,9 +2,6 @@
 float: left;
   width: 190px;
   height: 100px;
-
-
-
 }
 
 #bg {
@@ -51,14 +48,16 @@ float: left;
     padding-left: 40px;
     margin-left: 25px;
     margin-right: 0 auto;
+<<<<<<< HEAD
 
       transition-duration: 0.4s;
 
 
+=======
+>>>>>>> 16f079d59da7e1c75f6731a71411122f7abc453c
 }
 
 .menu a{
-
   text-decoration: overline;
   color: black;
   letter-spacing: 2px;
