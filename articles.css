@@ -1,29 +1,30 @@
 
 h1 {
   position: absolute;
-  margin-top: 150px;
+  top: 100px;
   text-align: center;
   width: 100%;
 }
 
 #Description{
   position: absolute;
-  margin-top: 200px;
+  top: 150px;
   width: 100%;
   padding: 10px;
   text-align: center;
 }
 
 .Content{
-  position: abosolute;
-  margin-top: 300px;
+  position: absolute;
+  top: 250px;
   width: 100%;
-
+  display: flex;
+  flex-direction: row;
 }
 
 .sidebar{
-  position: fixed;
-
+  display: flex;
+  flex-direction: column;
 }
 
 .Articles{
@@ -33,6 +34,9 @@ h1 {
 .Articles a{
   padding: 5px;
 }
+
+
+
 
 .buttons a:hover {
   background-color: #ddd;
