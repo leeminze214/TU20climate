@@ -4,25 +4,6 @@ float: left;
   height: 100px;
 }
 
-#bg {
-  position: absolute;
-  top: -200px;
-  left: -650px;
-  width: 200%;
-  height: 200%;
-  length: 300%;
-}
-#bg img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  min-width: 50%;
-  min-height: 50%;
-}
-
 .buttons a:hover {
   background-color: #ddd;
   color: white;
@@ -68,52 +49,5 @@ float: left;
 margin-right: 15px;
 }
 
-#intrologo{
-
-font-family: 'Lato', sans-serif;
-letter-spacing: 4px;
-font-weight: bold;
-font-size: 60px;
-}
-#intro{
-position: absolute;
-top: 340px;
-left: 560px;
-
-}
-
 
 /* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25.33%;
-  padding: 20px;
-  height: 300px;
-  margin: 20px;
-  background-color: lightgreen;
-position: relative;
-top:700px;
-left: 20px;
-text-align: center;
-border-radius: 10px;
-border: 10px;
-}
-
-.column a{
-padding: 10px;
-padding-left: 80px;
-padding-right: 80px;
-background-color: white;
-letter-spacing: 2px;
-font-family: 'Lato', sans-serif;
-border-radius: 10px;
-font-weight: bold;
-}
-.column a:hover{
-border-radius: 10px;
-transition-duration: 1s;
-background-color: black;
-color: white;
-font-family: 'Lato', sans-serif;
-
-}
