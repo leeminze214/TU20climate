@@ -30,9 +30,7 @@ float: left;
     margin-left: 0 auto;
     margin-right: 0 auto;
     top: 0;
-      transition-duration: 0.6s;
-
-
+    transition-duration: 0.6s;
 }
 
 .menu a{
@@ -48,6 +46,3 @@ float: left;
   width: 70%;
 margin-right: 15px;
 }
-
-
-/* Create three equal columns that floats next to each other */
