@@ -11,6 +11,7 @@ h1 {
   margin-right: auto;
   font-family: 'Lato', sans-serif;
   background-color: #F0F8FF;
+  transition-duration: 0.4s;
 }
 
 .Content{
@@ -35,9 +36,21 @@ h1 {
 }
 
 .sidebar a{
-  width: 150px;
+  margin: 10px;
+  width: auto;
   height: 10px;
   padding: 10px;
+  padding-bottom: 12px;
+  background-color: #99ff99;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.sidebar a:hover{
+  background-color: #F0F8FF;
 }
 
 .Articles{
@@ -47,11 +60,12 @@ h1 {
     grid-gap: 10px;
 }
 
-.Articles a{
+.Articles .column{
   text-align: center;
   width: 230px;
   height: 300px;
   margin: 10px;
   padding: 10px;
   background-color: #F0F8FF;
+  transition-duration: 0.4s;
 }
