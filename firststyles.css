@@ -13,6 +13,7 @@ float: left;
   left: -650px;
   width: 200%;
   height: 200%;
+  length: 300%;
 }
 #bg img {
   position: absolute;
@@ -29,11 +30,16 @@ float: left;
   background-color: #ddd;
   color: white;
   background-color: lightgreen;
+
+
 }
 .buttons a{
   position: relative;
   top: 40px;
   padding: 15px;
+  opacity: 60%;
+        transition-duration: 0.4s;
+
 }
 .menu{
     border-radius: 10px;
@@ -45,6 +51,8 @@ float: left;
     padding-left: 40px;
     margin-left: 25px;
     margin-right: 0 auto;
+
+      transition-duration: 0.4s;
 
 
 }
@@ -61,4 +69,33 @@ float: left;
   opacity: 80%;
   font-size: 20px;
 
+}
+
+#intrologo{
+
+font-family: 'Lato', sans-serif;
+letter-spacing: 4px;
+font-weight: bold;
+font-size: 60px;
+}
+#intro{
+position: absolute;
+top: 340px;
+left: 560px;
+
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25.33%;
+  padding: 20px;
+  height: 300px;
+  margin: 20px;
+  background-color: lightgreen;
+position: relative;
+top:700px;
+left: 20px;
+text-align: center;
 }
