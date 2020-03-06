@@ -35,12 +35,14 @@ top: 340px;
 left: 560px;
 font-size: 35px;
 }
+
 .column {
   float: left;
   width: 22.33%;
-  padding: 20px;
+
   height: 300px;
   margin: 20px;
+    padding: 20px;
   background-color: lightgreen;
 position: relative;
 top:700px;
@@ -50,6 +52,7 @@ border-radius: 10px;
 border: 10px;
 transition-duration: 0.3s;
 }
+
 .column:hover{
   margin-top: 30px;
     transition-duration: 0.2s;
