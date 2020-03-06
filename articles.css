@@ -1,5 +1,5 @@
 
-h1 {
+#title {
   position: relative;
   top: 100px;
   text-align: center;
@@ -35,7 +35,7 @@ h1 {
   border-radius: 10px;
 }
 
-.sidebar a{
+.sidebar .topics{
   margin: 10px;
   width: auto;
   height: 10px;
@@ -43,32 +43,38 @@ h1 {
   padding-bottom: 12px;
   background-color: #99ff99;
   border-radius: 10px;
+  border: none;
   text-decoration: none;
-  text-align: center;
+  text-align: left;
   color: white;
   transition-duration: 1s;
 }
 
-.sidebar a:hover{
+.sidebar .topics:hover{
   background-color: #F0F8FF;
   color: black;
   margin-top: 20px;
   transition-duration: 1s;
 }
 
-.Articles{
+.articles{
   display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 300px;
     grid-gap: 10px;
 }
 
-.Articles .column{
+.articles .column{
   text-align: center;
   width: 230px;
   height: 300px;
   margin: 10px;
   padding: 10px;
   background-color: #F0F8FF;
+  transition-duration: 0.4s;
+}
+
+.articles .column:hover{
+  margin-top: 30px;
   transition-duration: 0.4s;
 }
