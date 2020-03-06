@@ -22,14 +22,14 @@
 }
 
 #intrologo{
-transition-duration: .4s;
+transition-duration: 0.5s;
 font-family: 'Lato', sans-serif;
 letter-spacing: 4px;
 font-weight: bold;
 font-size: 60px;
 }
 #intro{
-transition-duration: 2s;
+transition-duration: 3s;
 position: absolute;
 top: 340px;
 left: 560px;
@@ -48,7 +48,7 @@ left: 40px;
 text-align: center;
 border-radius: 10px;
 border: 10px;
-transition-duration: 4s;
+transition-duration: 0.3s;
 }
 .column:hover{
   margin-top: 30px;
