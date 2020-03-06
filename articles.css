@@ -11,7 +11,7 @@ h1 {
   margin-right: auto;
   font-family: 'Lato', sans-serif;
   background-color: #F0F8FF;
-  transition-duration: 0.4s;
+  transition-duration: 2s;
 }
 
 .Content{
@@ -51,6 +51,9 @@ h1 {
 
 .sidebar a:hover{
   background-color: #F0F8FF;
+  color: black;
+  margin-top: 20px;
+  transition-duration: 1s;
 }
 
 .Articles{
