@@ -12,7 +12,6 @@
   font-family: 'Lato', sans-serif;
   background-color: #F0F8FF;
   border-radius: 10px;
-  transition: width 2s, height 2s, background-color 2s, transform 2s;
   transition-duration: .5s;
 }
 
