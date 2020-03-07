@@ -64,13 +64,17 @@
 
 .volunteerPosition .column{
   text-align: center;
-  width: 230px;
+  width: 220px;
   height: 300px;
   margin: 10px;
   padding: 10px;
   background-color: #F0F8FF;
   border-radius: 10px;
   transition-duration: .5s;
+}
+
+.volunteerPosition .column p{
+  font-size: 12px;
 }
 
 .volunteerPosition .column:hover{

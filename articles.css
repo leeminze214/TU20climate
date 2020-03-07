@@ -65,7 +65,7 @@
 
 .articles .column{
   text-align: left;
-  width: 230px;
+  width: 220px;
   height: 350px;
   margin: 10px;
   padding: 10px;
@@ -75,18 +75,19 @@
 }
 
 .articles .column h2{
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .articles .column p{
-  font-size: 11px;
+  display: block;
+  font-size: 10px;
 }
 
 .articles .column img{
   margin-left: auto;
   margin-right: auto;
-  height: 130px;
-  width: 200px;
+  height: 100px;
+  width: 190px;
 }
 
 .articles .column:hover{
