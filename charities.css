@@ -58,22 +58,23 @@
   transition-duration: .5s;
 }
 
-.articles{
+.charities{
+  width: 1100px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
-.articles .column{
+.charities .column{
   text-align: center;
-  width: 230px;
-  height: 300px;
+  width: 90%;
+  height: 70px;
   margin: 10px;
-  padding: 10px;
+  padding: 5px;
   background-color: #F0F8FF;
   border-radius: 10px;
   transition-duration: .5s;
 }
 
-.articles .column:hover{
-  margin-top: 30px;
+.charities .column:hover{
+  margin-left: 30px;
 }
