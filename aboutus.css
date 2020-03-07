@@ -53,6 +53,11 @@
   border-radius: 10px;
 }
 
+.people .column p{
+  padding: 10px;
+  text-align: left;
+}
+
 .people .column:hover{
   margin-top: 30px;
 }
