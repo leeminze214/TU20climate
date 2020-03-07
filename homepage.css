@@ -3,24 +3,14 @@
   padding: 0;
 }
 
-#bg {
-  position: absolute;
-  top: -200px;
-  left: -650px;
-  width: 200%;
-  height: 200%;
-  length: 300%;
-}
-
 #bg img {
   position: absolute;
   top: 0;
-  left: 0;
+  left: -400px;
   right: 0;
   bottom: 0;
-  margin: auto;
-  min-width: 50%;
-  min-height: 50%;
+length: 150%;
+width: 133%;
 }
 
 #intrologo{
@@ -36,7 +26,7 @@ font-style: italic;
 transition-duration: 3s;
 position: absolute;
 top: 340px;
-left: 560px;
+left: 860px;
 font-size: 35px;
 }
 
@@ -48,7 +38,7 @@ font-size: 35px;
   padding: 20px;
   background-color: lightgreen;
   position: relative;
-  top:700px;
+  top:750px;
   left: 40px;
   text-align: center;
   border-radius: 10px;
@@ -92,7 +82,9 @@ padding: 10px;
 border: 2px;
 font-size: 10px;
 margin: 15px;
-
+position: relative;
+top: 80px;
+left: 80px;
 }
 .form button:hover{
 background-color: black;
@@ -105,13 +97,13 @@ transition-duration: 1s;
   text-align: center;
   margin: 0 auto;
 position: absolute;
-top:1100px;
+top:1200px;
 font-family: 'Lato', sans-serif;
 left:410px;
 }
 .form input{
   position: absolute;
-  top:100;
+  top:300;
   font-size: 19px;
   text-align: left;
   font-family: 'Lato', sans-serif;
@@ -127,12 +119,14 @@ right: auto;
 }
 .form input:hover{
   width: 440px;
-
 }
-
+.form p{
+  font-size: 15px;
+  font-weight: bold;
+}
 .charnv{
 position: absolute;
-top:1400;
+top:1800;
 font-size: 19px;
 text-align: left;
 font-family: 'Lato', sans-serif;
@@ -146,7 +140,7 @@ font-style: italic;
 .Contact{
 
   position: absolute;
-  top:1460px;
+  top:1800px;
   font-size: 13px;
   text-align: left;
   font-family: 'Lato', sans-serif;
@@ -163,5 +157,5 @@ height: 350px;
 background-color: lightgreen;
   position: absolute;
   left: 0;
-  top:1350;
+  top:1750;
 }
