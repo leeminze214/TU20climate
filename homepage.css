@@ -38,7 +38,7 @@ font-size: 35px;
   padding: 20px;
   background-color: lightgreen;
   position: relative;
-  top:750px;
+  top:670px;
   left: 40px;
   text-align: center;
   border-radius: 10px;
@@ -97,13 +97,13 @@ transition-duration: 1s;
   text-align: center;
   margin: 0 auto;
 position: absolute;
-top:1200px;
+top:1100px;
 font-family: 'Lato', sans-serif;
 left:410px;
 }
 .form input{
   position: absolute;
-  top:300;
+  top:330;
   font-size: 19px;
   text-align: left;
   font-family: 'Lato', sans-serif;
@@ -126,7 +126,7 @@ right: auto;
 }
 .charnv{
 position: absolute;
-top:1800;
+top:1600;
 font-size: 19px;
 text-align: left;
 font-family: 'Lato', sans-serif;
@@ -140,7 +140,7 @@ font-style: italic;
 .Contact{
 
   position: absolute;
-  top:1800px;
+  top:1650px;
   font-size: 13px;
   text-align: left;
   font-family: 'Lato', sans-serif;
@@ -157,5 +157,5 @@ height: 350px;
 background-color: lightgreen;
   position: absolute;
   left: 0;
-  top:1750;
+  top:1550;
 }
