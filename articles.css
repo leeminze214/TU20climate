@@ -47,13 +47,13 @@
   border: none;
   text-decoration: none;
   text-align: left;
-  color: white;
+  color: black;
   transition-duration: .5s;
 }
 
 .sidebar .topics:hover{
-  background-color: #F0F8FF;
-  color: black;
+  background-color: black;
+  color: white;
   margin-top: 20px;
   transition-duration: .5s;
 }
