@@ -35,6 +35,28 @@
   border-radius: 10px;
 }
 
+.sidebar .locations{
+  margin: 10px;
+  width: auto;
+  height: 10px;
+  padding: 10px;
+  padding-bottom: 12px;
+  background-color: #99ff99;
+  border-radius: 10px;
+  border: none;
+  text-decoration: none;
+  text-align: left;
+  color: white;
+  transition-duration: .5s;
+}
+
+.sidebar .locations:hover{
+  background-color: #F0F8FF;
+  color: black;
+  margin-top: 20px;
+  transition-duration: .5s;
+}
+
 .volunteerPosition{
   display: flex;
   flex-direction: row;
